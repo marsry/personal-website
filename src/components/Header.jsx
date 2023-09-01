@@ -3,7 +3,9 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import IconButton from "@mui/material/IconButton";
-import CustomButton from "./CustomButton";
+import Button from "@mui/material/Button";
+import ContainedButton from "./ContainedButton";
+import TextButton from "./TextButton";
 
 export default function ButtonAppBar() {
   return (
@@ -25,7 +27,12 @@ export default function ButtonAppBar() {
           >
             Logo
           </IconButton>
-          <CustomButton name="Contact Me" />
+          <div>
+            <TextButton name="About me" color="light" />
+            <TextButton name="Experience" color="light" />
+            <TextButton name="Portfolio" color="light" />
+          </div>
+          <ContainedButton name="Contact Me" />
         </Toolbar>
       </AppBar>
     </Box>
