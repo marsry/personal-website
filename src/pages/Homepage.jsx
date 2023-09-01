@@ -64,7 +64,7 @@ export default function Homepage() {
         <Grid item xs={12} sm={7}>
           <Typography
             fontSize={24}
-            fontWeight={400}
+            fontWeight={500}
             align="left"
             sx={{ color: "#0074E8" }}
           >
