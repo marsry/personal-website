@@ -64,20 +64,20 @@ export default function Homepage() {
         <Grid item xs={12} sm={7}>
           <Typography
             fontSize={24}
-            fontWeight={400}
+            fontWeight={500}
             align="left"
             sx={{ color: "#0074E8" }}
           >
             About me
           </Typography>
           <Typography fontSize={18} align="left">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I am Marsry Jan S. Sevilla, a software engineer from Iloilo City,
+            Philippines. I'm driven by a deep passion for frontend development
+            and UI/UX design, characterized by my meticulous attention to
+            detail, and totally committed to making sure users have a seamless
+            experience. My proficiency in both coding and design essentials
+            enables me to seamlessly integrate creativity and technical
+            excellence into every project I undertake.
           </Typography>
         </Grid>
       </Grid>
