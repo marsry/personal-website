@@ -8,13 +8,14 @@ import CustomButton from "./CustomButton";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar
-        position="fixed"
-        sx={{
-          backgroundColor: "#141A1F",
-        }}
-      >
-        <Toolbar>
+      <AppBar position="fixed" sx={{ backgroundColor: "#141A1F" }}>
+        <Toolbar
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            marginX: "50px",
+          }}
+        >
           <IconButton
             size="large"
             edge="start"
