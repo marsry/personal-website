@@ -6,7 +6,7 @@ export default function TextButton(props) {
     <Button
       sx={{
         textTransform: "none",
-        color: props.color === "light" ? "#ffffff" : "#0000000",
+        color: props.color === "white" ? "#ffffff" : "#0074E8",
         fontWeight: 400,
         marginX: "20px",
         "&:hover": {

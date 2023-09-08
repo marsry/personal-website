@@ -21,18 +21,19 @@ export default function Contact() {
   ))(({ theme }) => ({
     "& .MuiFilledInput-root": {
       overflow: "hidden",
-      borderRadius: "10px",
-      backgroundColor: "#141A1F",
+      borderRadius: "15px",
+      backgroundColor: "#FFFFFF",
       border: "1px solid #7388A4",
-      color: "#FFFFFF",
+      color: "#152029",
       "&.Mui-focused": {
-        backgroundColor: "#141A1F",
+        backgroundColor: "#FFFFFF",
         border: "2px solid #0074E8",
-        color: "white",
+        color: "#152029",
       },
     },
     "& .MuiInputLabel-root": {
       color: "#7388A4",
+      fontSize: "14px",
     },
   }));
 
@@ -51,7 +52,7 @@ export default function Contact() {
       >
         <Grid xs={12} sm={6}>
           <TypeAnimation
-            sequence={["", 1000, "Contact", 500, "Contact me.", 10000]}
+            sequence={["", 200, "Contact me.", 10000]}
             wrapper="span"
             cursor={true}
             repeat={Infinity}
@@ -59,6 +60,7 @@ export default function Contact() {
               fontSize: "64px",
               fontWeight: 600,
               fontFamily: "Roboto",
+              color: "#0074E8",
             }}
           />
           <Typography fontSize={24} align="left" sx={{ color: "#7388A4" }}>
@@ -79,13 +81,13 @@ export default function Contact() {
         </Grid>
         <Grid xs={12} sm={6}>
           <Stack
-            spacing={2}
+            spacing={3}
             direction="column"
             sx={{
               border: "1px solid #7388A4",
-              borderRadius: "10px",
-              backgroundColor: "rgba(21,32,41,0.9)",
-              padding: "50px",
+              borderRadius: "15px",
+              backgroundColor: "#0E2032",
+              padding: "40px",
             }}
           >
             <ContactFormTextField label="Name" id="name" variant="filled" />
@@ -95,7 +97,7 @@ export default function Contact() {
               id="message"
               variant="filled"
               multiline
-              rows={4}
+              rows={3}
             />
 
             <div style={{ display: "flex", justifyContent: "right" }}>

@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Prometheus Productions OPC",
+    "duration": "September 2022 - June 2023",
+    "position": "Associate Software Engineer",
+    "workDescription": "Implemented UX design process, Created UX design wireframes using Figma and Built websites using Wordpress",
+    "techStack": ["Javascript", "React"]
+  },
+  {
+    "company": "Fame Web3 Social Media",
+    "duration": "January - April 2023 (Part-time)",
+    "position": "UX Designer/Frontend Developer",
+    "workDescription": "Created UX design wireframes using Figma, Developed React - TypeScript webapplication",
+    "techStack": ["Javascript", "React"]
+  },
+  {
+    "company": "Kingsland Technology Philippines",
+    "duration": "March - May 2022 (Internship)",
+    "position": "Frontend Software Engineer",
+    "workDescription": "Designed, developed and tested React - TypeScript web application",
+    "techStack": ["Javascript", "React"]
+  }
+]

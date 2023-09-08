@@ -11,8 +11,8 @@ export default function App() {
       <ButtonAppBar />
       <TWallpaper
         options={{
-          colors: ["#141A1F", "#152029", "#002851"],
-          fps: 50,
+          colors: ["#141A1F", "#001B36"],
+          fps: 80,
         }}
       />
       <Routes>
